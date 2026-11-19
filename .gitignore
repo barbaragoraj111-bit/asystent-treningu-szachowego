@@ -1,0 +1,15 @@
+# to są pliki tymczasowe robione automatycznie przez pythona przy uruchamianiu kodu
+__pycache__/   
+*.pyc
+
+# folder z wirtualnym środowiskiem pythona, skrót od virtual environment, ja je pozniej załozę, instalowanie bibliotek tylko dla tego projektu
+.venv/ 
+
+# pamięć podręczna testów, która stworzy się sama po uruchomieniu pytest
+.pytest_cache/
+
+# lokalne ustawienia VS Code
+.vscode/
+
+# ukryte pliki systemowe tworzone automatycznie przez macOS, np. uklad ikon w finderze
+.DS_Store
